@@ -32,7 +32,7 @@ python main.py fetch-image
 python main.py fetch-image 2023-12-25 --save
 ```
 ## Tech Stack & Security
-Built with: Python 3.x, Typer, Requests, Pillow, Python-dotenv.
+Built with: Python 3.14, Typer, Requests, Pillow, Python-dotenv.
 Git Safety: The .gitignore file ensures that .env and system caches (__pycache__) are never exposed to the public repository.
 
 Developed by Vugar Hajiyev
