@@ -1,7 +1,9 @@
+import os
 from pathlib import Path
+from dotenv import load_dotenv
 
-# Твой личный ключ доступа
-API_KEY = "znx93lFE0o1ggbO2i5HOHWVr2Cfzy3gdY3fEgPrI"
+load_dotenv()
+
+API_KEY = os.getenv("NASA_API_KEY")
 BASE_URL = "https://api.nasa.gov/planetary/apod"
-
 IMAGE_DIR = Path(__file__).parent / "images"
