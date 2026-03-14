@@ -1,6 +1,6 @@
 # NASA APOD CLI Tool
 
-A professional Command Line Interface (CLI) tool designed to fetch and manage NASA's "Astronomy Picture of the Day" (APOD). This project demonstrates clean code architecture, API integration, and secure credential management.
+A Python-based command-line tool to fetch and archive NASA's "Astronomy Picture of the Day" (APOD). This project demonstrates clean code architecture, API integration, and secure credential management.
 
 ## What it does
 This tool allows you to interact with the official NASA API directly from your terminal. It fetches the daily space image (or an image for a specific date), displays it instantly, and optionally saves it to your local machine with clean formatting.
